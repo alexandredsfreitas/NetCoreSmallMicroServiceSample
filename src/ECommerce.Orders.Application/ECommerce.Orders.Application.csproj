@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\ECommerce.Exceptions\ECommerce.Exceptions.csproj" />
       <ProjectReference Include="..\ECommerce.Infrastructure\ECommerce.Infrastructure.csproj" />
       <ProjectReference Include="..\ECommerce.Orders.Domain\ECommerce.Orders.Domain.csproj" />
     </ItemGroup>

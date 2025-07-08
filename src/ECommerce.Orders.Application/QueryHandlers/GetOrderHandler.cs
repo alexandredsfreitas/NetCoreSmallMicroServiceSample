@@ -1,3 +1,4 @@
+using ECommerce.Exceptions;
 using ECommerce.Orders.Application.DTOs;
 using ECommerce.Orders.Application.Queries;
 using ECommerce.Orders.Domain.Models;
