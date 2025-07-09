@@ -7,13 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+        <PackageReference Include="MediatR" Version="13.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\ECommerce.Orders.Application\ECommerce.Orders.Application.csproj" />
       <ProjectReference Include="..\ECommerce.Orders.Infrastructure\ECommerce.Orders.Infrastructure.csproj" />
+      <ProjectReference Include="..\ECommerce.Stock.Application\ECommerce.Stock.Application.csproj" />
+      <ProjectReference Include="..\ECommerce.Stock.Infrastructure\ECommerce.Stock.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
